@@ -1,8 +1,7 @@
 var params = {
-    owner_id: -59215951,
-    album_id: 241207498,
+    owner_id: -142483556,
+    album_id: 253636600,
     count:15,
-    offset: 100,
     version: 5.73
 };
 var posterParams = {
@@ -25,7 +24,7 @@ function gotAlbums( data){
             +'<div class="grid-item photos">'
             +'<a class="chocolat-image" href='+al.src_big+'>'
             +'<img src="'+al.src_big+'" alt="" />'
-          +'<a class="innerImage" href=https://vk.com/photo'+al.owner_id+'_'+al.pid+'>vk</a>'
+    //      +'<a class="innerImage" href=https://vk.com/photo'+al.owner_id+'_'+al.pid+'>vk</a>'
             +'</a></div>';
     }
     $('.photos').html( html);
@@ -34,6 +33,7 @@ function gotAlbums( data){
 function text(){
 
     html = html
+
         +'<div class="grid-item contacts"> <main class="sectionTitle"><h1>ЮНИТИ<span class="sectionTitle__dots">:</span></h1></main><aside class="about-info"><p class="about-info__p1">Площадка для творческих, креативных и амбициозных<br>где <span class="spanColor">каждый</span> может себя реализовать.</p><br><p class="about-info__p2">В нашем пространстве вы сможете найти для себя каждый раз что то новое:<br>мастер-классы, игры, различные мероприятия, горячий кофе и многое другое!</br>Что именно бует происходит на площадке "Юнити", может зависеть даже от <span class="spanColor">Вас!</span</p</aside>'
         +'</div>';
 

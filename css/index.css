@@ -267,12 +267,3 @@ a:active {
     }
 }
 
-
-.innerImage {
-    display:none;
-    font-size: 5em;
-}
-
-.innerImageVis {
-    display:block;
-}
