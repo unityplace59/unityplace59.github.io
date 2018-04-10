@@ -151,9 +151,7 @@ window.onload = function() {
         });
     });
 
-        $('.chocolat-parent').Chocolat({
-        enableZoom: true
-        })
+       
 
     var typed = new Typed('.typed', {
         strings: ["выставку?", "перфоманс?", "концерт?"],
