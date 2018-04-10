@@ -152,7 +152,7 @@ window.onload = function() {
     });
 
         $('.chocolat-parent').Chocolat({
-        enableZoom: false
+        enableZoom: true
         })
 
     var typed = new Typed('.typed', {
