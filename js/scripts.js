@@ -151,9 +151,8 @@ window.onload = function() {
         });
     });
 
-        $('.chocolat-parent').Chocolat({
+        $('.chocolat-parent').Chocolat({enableZoom: false;        })
 
-        })
 
     var typed = new Typed('.typed', {
         strings: ["выставку?", "перфоманс?", "концерт?"],
