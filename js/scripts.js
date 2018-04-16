@@ -151,7 +151,7 @@ window.onload = function() {
         });
     });
 
-        $('.chocolat-parent').Chocolat({enableZoom: false;        });
+          $('.chocolat-parent').Chocolat();
 
 
     var typed = new Typed('.typed', {
